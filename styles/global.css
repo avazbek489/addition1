@@ -1,0 +1,31 @@
+@import url("./fonts.css");
+@import url("./normalize.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Poppins" , Arial , sans-serif;
+}
+
+a{
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+a:hover{
+    color: #4A99D3;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+li{
+    list-style: none;
+}
+
+.container{
+    max-width: 1287px;
+    width: 100%;
+    margin: 0 auto;
+}

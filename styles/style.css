@@ -1,0 +1,214 @@
+@import url("./global.css");
+
+/* HEADER AND HERO SECTION */
+.section__container {
+    background: linear-gradient(180deg, rgba(120, 171, 208, 0.8) -100%, rgba(74, 153, 211, 0) 75.91%);
+    box-shadow: 0px 4px 16px 0px #dfdfdf;
+    border-radius: 5px;
+    padding: 60px 10px;
+    margin-bottom: 146px;
+}
+
+/* HEADER QISMI */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 110px;
+}
+
+.header h2 {
+    font-size: 35px;
+    font-weight: 900;
+    color: #4A99D3;
+}
+
+.loral {
+    color: #4A99D3;
+}
+
+ul {
+    display: flex;
+    gap: 60px;
+}
+
+ul a {
+    color: #0F001A;
+}
+
+/* HERO QISMI */
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-left {
+    width: 636px;
+    height: 264px;
+}
+
+.hero-left h1{
+font-size: 50px;
+font-weight: 400;
+line-height: 70px;
+letter-spacing: 0.02em;
+text-align: left;
+color: #260041;
+}
+
+.hero-left span{
+    font-size: 50px;
+font-weight: 400;
+line-height: 70px;
+letter-spacing: 0.02em;
+text-align: left;
+color: #c13333;
+}
+
+/* MAIN QISMI */
+
+.main {
+    margin-bottom: 90px;
+}
+
+.main__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-top h2 {
+    font-family: "Poppins";
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #260041;
+
+    width: 395px;
+    height: 138px;
+
+    margin-bottom: 84px;
+}
+
+.flow {
+    width: 380px;
+    height: 525px;
+    border-radius: 10px;
+    box-shadow: 5px 20px 50px 0px #4A99D333;
+    padding: 48px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+}
+
+.main-bottom {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+    margin-bottom: 30px;
+}
+
+.flow-bot h4 {
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #0F001A;
+}
+
+.flow-bot p {
+    margin-top: 16px;
+    margin-bottom: 62px;
+
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #0F001A;
+}
+
+.flow-bot a {
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #4A99D3;
+}
+
+/* PAGES QISMI */
+
+.page__container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.page-bottom {
+    display: flex;
+    align-items: center;
+    gap: 106px;
+
+    margin-top: 88px;
+}
+
+.pages {
+    margin-bottom: 87px;
+}
+
+.page-top h3 {
+    font-family: "Poppins";
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 26.99px;
+    text-align: center;
+    color: #4A99D3;
+}
+
+.page__container {
+    padding: 60px 0;
+
+    background-color: rgba(74, 153, 211, 0.1);
+}
+
+.internal {
+    width: 224px;
+    height: 171px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.internal h6 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18.68px;
+    text-align: left;
+    color: #0F001A;
+}
+
+.internal p {
+    width: 224px;
+    height: 52px;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    color: #0F001A;
+}
