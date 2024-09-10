@@ -48,24 +48,52 @@ ul a {
 .hero-left {
     width: 636px;
     height: 264px;
+
+    margin-bottom: 170px;
 }
 
-.hero-left h1{
-font-size: 50px;
-font-weight: 400;
-line-height: 70px;
-letter-spacing: 0.02em;
-text-align: left;
-color: #260041;
-}
-
-.hero-left span{
+.hero-left h1 {
+    font-family: "Objective";
     font-size: 50px;
-font-weight: 400;
-line-height: 70px;
-letter-spacing: 0.02em;
-text-align: left;
-color: #c13333;
+    font-weight: 400;
+    line-height: 70px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #260041;
+
+    width: 493px;
+    height: 140px;
+}
+.two-img{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+.hero-left span {
+    font-family: "Objective" "Playfair Display";
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 70px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #fa2525;
+}
+
+.hero-left p {
+    font-family: "Objective";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    color: #260041;
+
+    width: 500px;
+    height: 110px;
+
+    margin-bottom: 60px;
 }
 
 /* MAIN QISMI */
@@ -211,4 +239,60 @@ color: #c13333;
     line-height: 26px;
     text-align: center;
     color: #0F001A;
+}
+
+/* CLIENT QISMI */
+.client{
+    margin-bottom: 158px;
+}
+
+.client--bottom__right{
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+}
+
+.client--bottom__right p{
+    font-family: "Objective";
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: rgba(15, 0, 26,0.5);
+
+width: 330px;
+height: 96px;
+}
+
+.client--bottom__right h6{
+    font-family: "Objective";
+font-size: 18px;
+font-weight: 500;
+line-height: 18.68px;
+text-align: left;
+color: #0F001A;
+}
+
+.client__container{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    flex-direction: column;
+}
+
+.client-bottom{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+
+}
+
+
+.client-top h2{
+    font-family: "Objective";
+font-size: 26px;
+font-weight: 700;
+line-height: 26.99px;
+text-align: center;
+color: #0F001A;
 }
